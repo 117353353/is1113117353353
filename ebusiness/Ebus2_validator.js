@@ -1,4 +1,4 @@
-/*Global$*/
+/* global $*/
 function validateDetails(){
     var pin;
     pin=document.getElementById("user_pin").value;

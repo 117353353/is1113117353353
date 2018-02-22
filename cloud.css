@@ -1,0 +1,10 @@
+a:link {
+    color:white;
+    text-decoration: none;
+}
+body{
+     background-image: url(http://www.itp.net/images/content/564045/article/875-cloud_article.jpg); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}

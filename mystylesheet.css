@@ -1,5 +1,24 @@
 .mainheading{
     text-align:center;
+    background color:black;
+    color:coral;
 }
-body{background-color: coral;
+
+body {
+    text-align:center; 
+    background-image: url(https://i.ytimg.com/vi/YzZWvL-x3B0/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
 }
+    
+  p{
+      color:white;
+  }
+    
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+

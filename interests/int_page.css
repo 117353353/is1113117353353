@@ -14,3 +14,9 @@
     text-align:center;
     color:white;
 }
+body{
+    background-image: url(https://i.ytimg.com/vi/t0kGRcd-IFY/maxresdefault.jpg); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}

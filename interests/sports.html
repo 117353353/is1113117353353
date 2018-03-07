@@ -1,27 +1,117 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <title>Sport</title>
-        <link rel="stylesheet" href="int_page.css" type="text/css" />
-        <!--Adding Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    
+        <style>
+body {margin:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.backgroundimage{
+    background-image:url(http://cyclevita.net/img/schwarz-wei-geometrischer-hintergrund.jpg);
+}
+
+.backgroundimage{
+    background-size: cover;
+}
+
+.backgroundimage{ 
+    background-repeat: no-repeat;
+}
+
+</style>    
+   
+    <title>Sport</title>
     </head>
-    <body>
+    
+    <body class="backgroundimage">
+      <ul>
+      <li><a href="../homepage.html">Home</a></li>   
+      <li><a href="../Clevercloud.html">Clevercloud</a></li>
+      <li><a href="cv/cv_page1.html">Curriculm Vitae</a></li>
+      <li><a href="../Cloud.html">About Cloud</a></li> 
+      </ul> 
+           </br>
+           </br>
+           </br>
+           <font color="white">
         <h1 class="mainheading">Sports</h1>
+        </font>
         
-       </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    .mySlides {display:none;}
+    </style>
     <body>
-        <p><strong>Favourite Sport:</strong>Hurling</p>
-        <img src="https://cdn-01.independent.ie/incoming/article35445300.ece/61f37/AUTOCROP/w620h342/55Ryan2.jpg" alt="Hurling" width="400" height="200">
-        <p><strong>Favourite Team:</strong>Tipperary</p> 
-        <img src="http://www.tippsupportersclub.com/wp-content/uploads/2012/09/Tipperary-Minor-Team3.jpg" alt="Tipperary Hurling Team" width="400" height="200">
-        <p><strong>Local Team:</strong>Golden/Kilfeacle</p> 
-        <img src="https://pbs.twimg.com/profile_images/507143553198592000/g0hUIbri_400x400.jpeg" alt="Golden/Kilfeacle Crest" width="400" height="200">
-        <p><strong>Position:</strong>Corner back</p>
+
+  <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://i2-prod.irishmirror.ie/incoming/article9838385.ece/ALTERNATES/s1200/inpho_01101943.jpg" style="width:100%" height="225">
+  <img class="mySlides" src="http://www.irishrugby.ie/images/news/IrelandSquad_650_rdax_80.jpg" style="width:100%" height="225">
+  <img class="mySlides" src="https://image.redbull.com/rbcom/010/2016-02-16/1331777047411_1/0010/1/1600/1067/1/a-pair-of-mountain-bikers-riding-in-the-dolomites-range-in-north-eastern-italy.jpg" style="width:100%" height="225">
+    </div>
+
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+
         
-        <a href="travel.html" class="btn btn-dark">Next</a>
+       <font color="white">
+   
+        <p><h1>Favourite Sport:</h1><strong>Hurling</strong></p>
+       My favourite sport is hurling. It is an original sport to this country and is played at a very fast pace. It offers 
+       great hours of entertainment during the summer watching matches both on the television and in person.
+        </br>
+        <p><h1>Teams I support:</h1><strong>Tipperary</strong></p>
+       The sports I have a major interest in hurling, football, soccer and rugby. I follow the Tipperary team in both
+       hurling and football very closely. With soccer, I am keenly interested in Chelsea football club as I have supported
+       them since a young age. Munster and Ireland are the two rugby teams I make a real effort to watch.
+        </br>
+        <p><h1>Sports played:</h1><strong>Hurling,Football,Rugby and Mountain biking</strong></p>
+       I personally am involved in hurling, football, rugby and also enjoy mountain biking. I am involved with these on a local level
+       and greatly enjoy being in the fresh air and meeting others.
+      
+        </br>
+        </br>
+        <a href="travel.html" class="btn btn-success">Next</a>
     </body>
 </html>

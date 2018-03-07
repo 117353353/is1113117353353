@@ -1,24 +1,13 @@
-.mainheading{
-    text-align:center;
-    background-color:black;
-    color:coral;
+.homepage{
+     background-image: url(http://www.itp.net/images/content/564045/article/875-cloud_article.jpg); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     color:black;
 }
 
-body {
-    text-align:center; 
-    background-image: url(https://i.ytimg.com/vi/YzZWvL-x3B0/maxresdefault.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:white;
+.cv3{
+     background-image: url(http://www.creativehdwallpapers.com/uploads/large/abstract-hd-wallpaper/abstract-hd-wallpaper-black-designs.jpg); 
+     background-repeat: no-repeat;
+     background-size: cover;
+     color:black;
 }
-    
-  p{
-      color:white;
-  }
-    
-a:link {
-    color:white;
-    text-decoration: none;
-}
-
-

@@ -9,11 +9,13 @@
     </head>
     
     <body>
-        
+         <center>
         <h4>Select a product</h4>
         
         </br>
         
+        
+       
         <form method="POST" action="Ebus2.php">
         
         <label for="salesforce">
@@ -49,7 +51,7 @@
         <button type="submit" id="btnProceed" disabled>Add to Shopping cart</button>
         
         </form>
-        
+   
         
         <br/>
         
@@ -57,7 +59,7 @@
         <a role="button" href="Ebus1.php">Clear Choice</a>
        
        
-         
+         </center>
     </body>
     
     

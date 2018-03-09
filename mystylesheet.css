@@ -1,13 +1,11 @@
-.homepage{
-     background-image: url(http://www.itp.net/images/content/564045/article/875-cloud_article.jpg); 
-     background-repeat: no-repeat;
-     background-size: cover;
-     color:black;
-}
 
-.cv3{
-     background-image: url(http://www.creativehdwallpapers.com/uploads/large/abstract-hd-wallpaper/abstract-hd-wallpaper-black-designs.jpg); 
-     background-repeat: no-repeat;
-     background-size: cover;
-     color:black;
-}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
